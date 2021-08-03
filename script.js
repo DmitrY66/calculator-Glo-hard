@@ -8,7 +8,7 @@ function сompactString(strcomp) {
   } else {
     strcomp = strcomp.trim();
     if (strcomp.length > 30) {
-      strcomp = strcomp.substr(0, 30) + '...';
+      strcomp = strcomp.substring(0, 30) + ' ...';
     }
   }
   console.log(strcomp);
